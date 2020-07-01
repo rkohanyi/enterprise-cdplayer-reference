@@ -1,4 +1,4 @@
-package hu.codecool;
+package hu.codecool.player;
 
 import hu.codecool.player.Player;
 import hu.codecool.player.activity.*;
@@ -20,7 +20,7 @@ import java.rmi.registry.Registry;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class PlayerClient {
 
     public static void main(String[] args) throws Exception {
         Registry registry = LocateRegistry.getRegistry("localhost");
